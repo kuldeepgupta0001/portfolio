@@ -83,17 +83,18 @@
       }
     }
     &:last-of-type {
+      padding-top: 3rem;
       border-top: 1px solid $color6_2;
       display: flex;
       flex-direction: column;
-      justify-content: flex-end;
+      // justify-content: center;
       align-items: center;
       overflow-x: hidden;
 
       &::after {
         content: "";
         width: 35vmax;
-        height: 37vmax;
+        height: 35vmax;
         background-color: $color3;
         position: absolute;
         z-index: -1;
@@ -101,10 +102,10 @@
       }
 
       > img {
-        width: 30vmax;
-        // object-fit: contain;
+        width: 35vmax;
+        object-fit: contain;
 
-        height: 38vmax;
+        height: 35vmax;
       }
     }
   }

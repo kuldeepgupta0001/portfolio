@@ -48,7 +48,7 @@ nav {
   height: 40px;
   border: none;
   background-color: transparent;
-  color: $color5;
+  color: $color7;
 
   font-size: 1.4rem;
   z-index: 150;
@@ -56,12 +56,13 @@ nav {
   top: 2rem;
   right: 2rem;
   display: none;
+
   &:hover {
     color: $color3;
   }
 }
 
-.navPhone {
+.navphone {
   transition: all 0.5s;
   transform: translateY(-200%);
   width: 100%;

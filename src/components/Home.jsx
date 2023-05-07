@@ -44,7 +44,7 @@ const Home = () => {
           />
 
           <div>
-            <a href="mailto:abcdrai57@gmail.com">Hire ME</a>
+            <a href="mailto:guptakul0001@gmail.com">Hire ME</a>
             <a href="#work">
               Projects <BsArrowUpRight />
             </a>
@@ -61,11 +61,11 @@ const Home = () => {
               </p>
               <span>Projects Done</span>
             </article>
-            <article data_special>
+            <article id="data_special">
               <p>
                 <span>Contact</span>
               </p>
-              <span>abcdrai57@gmail.com</span>
+              <span>guptakul0001@gmail.com</span>
             </article>
           </aside>
         </div>

@@ -5,7 +5,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
   return (
     <>
       <nav>
-        <NavContent />
+        <NavContent setMenuOpen={setMenuOpen} />
       </nav>
       <button className="navBtn" onClick={() => setMenuOpen(!menuOpen)}>
         <AiOutlineMenu />
@@ -16,7 +16,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
 
 export const HeaderPhone = ({ menuOpen, setMenuOpen }) => {
   return (
-    <div className={`navphone ${menuOpen} ? "navPhoneComes":""`}>
+    <div className={`navphone ${menuOpen ? "navPhoneComes" : ""}`}>
       <NavContent setMenuOpen={setMenuOpen} />
     </div>
   );
