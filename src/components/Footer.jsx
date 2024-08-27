@@ -1,5 +1,5 @@
 import React from "react";
-import fonder from "../assets/founder1.png";
+import fonder from "../assets/logo.png";
 import {
   AiOutlineArrowUp,
   AiFillGithub,

@@ -32,8 +32,8 @@ const Services = () => {
           whileInView={animations.whileInView}
           initial={animations.one}
         >
-          <h3>1+</h3>
-          <p>Years Experience</p>
+          <h3>2+</h3>
+          <p>Months Experience</p>
         </motion.div>
         <motion.div
           className="servicesBox2"
@@ -41,7 +41,7 @@ const Services = () => {
           initial={animations.twoAndthree}
         >
           <AiFillIeCircle />
-          <span>Web Development</span>
+          <span>Fullstack Developer</span>
         </motion.div>
         <motion.div
           className="servicesBox3"
@@ -52,7 +52,7 @@ const Services = () => {
           }}
         >
           <AiFillAndroid />
-          <span>App Development</span>
+          <span>App Developer</span>
         </motion.div>
         <motion.div
           className="servicesBox4"
@@ -60,7 +60,7 @@ const Services = () => {
           initial={animations.four}
         >
           <AiFillWindows />
-          <span>Desktop Development</span>
+          <span>Backend Developer</span>
         </motion.div>
       </section>
     </div>

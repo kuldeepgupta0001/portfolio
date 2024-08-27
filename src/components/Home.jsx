@@ -8,7 +8,7 @@ const Home = () => {
   const projecrDone = useRef(null);
 
   const animationProject = () => {
-    animate(0, 5, {
+    animate(0, 15, {
       duration: 1,
       onUpdate: (v) => (projecrDone.current.textContent = v.toFixed()),
     });

@@ -93,8 +93,8 @@
 
       &::after {
         content: "";
-        width: 35vmax;
-        height: 35vmax;
+        width: 38vmax;
+        height: 38vmax;
         background-color: $color3;
         position: absolute;
         z-index: -1;
@@ -102,10 +102,12 @@
       }
 
       > img {
-        width: 35vmax;
+        width: 40vmax;
         object-fit: contain;
+        margin-top: -4rem;
+        margin-right: 1.8rem;
 
-        height: 35vmax;
+        height: 40vmax;
       }
     }
   }
